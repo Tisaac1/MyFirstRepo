@@ -55,20 +55,21 @@
 
 // //*D. The farm-----------------------------------------------------
 // let animal = "cow";
-// const moo = (a) => {
-//     return a.toLowercase === "cow"? "mooooo" : "hey, that's not a cow"
+// if (animal === "dog"){
+// 	console.log("mooooo");
+// } else {
+// 	console.log("Hey! You're not a cow.");
 // }
-// console.log(moo(animal));
 
 //write a code  that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16,'
 // a message should print "Sorry, you're too young."---------------------------------------------
 
-// let personAge = 17;
-// if (personAge >= 16){
-//     console.log ("Here are the keys!");
-// }else {
-//     console.log ("sorry, you're too young.");
-// }
+let personAge = 8;
+if (personAge >= 16){
+    console.log ("Here are the keys!");
+}else {
+    console.log ("sorry, you're too young.");
+}
 // //  PersonAge = 8;
 //  //personAge = 16;
 // //  personAge = 33;
