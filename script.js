@@ -325,3 +325,21 @@ user.friend.purchased.push("The One Ring")
 user.friend.purchased.push("A latte")
 console.log(user.friend)
 console.log(user.friend.purchased[1])
+
+/ for(let i = [3]; i < user.purchased; i++) {
+//     console.log(user.purchased);
+//   }
+//   for(let i = [3]; i < user.friend.purchased; i++) {
+//     console.log(user.friend.purchased);
+//   }
+
+//   userUpdate = user
+//   user.age = user.age+1
+ 
+//   console.log(user)
+//   console.log(user.name.toUpperCase())
+
+//The function does not need a return statement, it will merely modify the user object.
+//Write a function oldAndLoudthat performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called.
+// Call your oldAndLoudfunction with useras the argument. 
+//please review this
