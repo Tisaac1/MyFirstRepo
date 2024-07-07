@@ -197,7 +197,8 @@ if (personAge >= 16){
 //     "marshmallow peeps"
 //   ];
   
-//   // Thom's closet is more complicated. Check out this nested data structure!!
+// 
+// //   // Thom's closet is more complicated. Check out this nested data structure!!
 //   const thomsCloset = [
 //     [
 //       // These are Thom's shirts
@@ -286,17 +287,41 @@ if (personAge >= 16){
 
 
 //Objects
-// const objectName = {
-//     prop1 : name,
-//     prop2 : email,
-//     prop3 : AbstractRange,
-//     prop4 :purchased 
-// }
+//user
 
-// const me = {
-//     name: "Tiffany Isaac",
-//     age: 32,
-//     email : "Lashay_isaac@yahoo.com"
-// };
-// me.name;
-// me.age 
+let user =
+{ name:"Tiffany",
+    email:"helloworld@gmail.com",
+    age:19,
+    purchased:[],};
+ user.email = "he@yahoo.com";
+user.age++;
+user['location'] = "anywhere";
+user.purchased.push("carbs");
+user.purchased.push("peace of mind")
+user.purchased.push("Merino jodhpur")
+
+    // console.log (user);
+    // console.log(Merino jodhpur);
+
+user.friend = {
+    name:"Grace Hopper",
+    age:85,
+    location:"USA" ,
+    purchased:[]
+}
+// console.log(user)
+
+///////////Remember that you can add an object to an existing object in the///////////////////////
+ ///////////same way that you can add any new property/value pair.------------------------------------
+
+console.log(user.friend)
+console.log(user.friend.name)
+console.log(user.friend.location)
+user.friend.age = 55
+
+console.log(user.friend)
+user.friend.purchased.push("The One Ring")
+user.friend.purchased.push("A latte")
+console.log(user.friend)
+console.log(user.friend.purchased[1])
